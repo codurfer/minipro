@@ -15,7 +15,7 @@ startBtn.addEventListener('click', (e) => {
   setTimeout('info4()', 3300);
   setTimeout('info5()', 4700);
   setTimeout('info6()', 5300);
-  setTimeout('stopInfo()', 5400);
+  setTimeout('stopInfo()', 5800);
 });
 
 closeBtn.addEventListener('click', (e) => {
