@@ -3,6 +3,7 @@ const closeBtn = document.querySelector('.close');
 const content = document.querySelector('.content');
 const showup = document.querySelector('.mainBox');
 const fir = document.querySelector('.fir');
+const state = document.querySelector('.state');
 
 startBtn.addEventListener('click', (e) => {
   startBtn.classList.toggle('off');
@@ -14,11 +15,17 @@ startBtn.addEventListener('click', (e) => {
   setTimeout('info4()', 3300);
   setTimeout('info5()', 4700);
   setTimeout('info6()', 5300);
+  setTimeout('stopInfo()', 5400);
 });
 
 closeBtn.addEventListener('click', (e) => {
   checkAlert();
 });
+
+function stopInfo() {
+  state.textContent = '끗';
+  state.style.color = 'red';
+}
 
 function checkAlert() {
   if (confirm('설명봇을 종료하시겠어요?') === true) {
