@@ -20,6 +20,7 @@ h1 {
 .fir {
   display: flex;
   flex-direction: column;
+  text-align: center;
   margin-top: 70px;
   font-size: 30px;
   color: white;
@@ -58,7 +59,7 @@ h1 {
 }
 .middle {
   width: 450px;
-  height: 600px;
+  height: 800px;
   background-color: rgb(187, 187, 187);
 }
 .content {
@@ -134,8 +135,8 @@ img {
   .close {
     margin-top: 25px;
     margin-right: 15px;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     font-weight: bold;
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -192,7 +193,7 @@ img {
     display: none;
   }
   img {
-    width: 330px;
+    width: 300px;
     height: 220px;
   }
 }
