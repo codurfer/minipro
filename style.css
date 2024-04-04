@@ -135,19 +135,16 @@ img {
   .close {
     text-align: center;
     margin-top: 15px;
-    margin-right: 30px;
-    width: 40px;
-    height: 40px;
+    margin-right: 20px;
     font-weight: bold;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
+    font-size: 30px;
+    color: rgb(51, 154, 151);
     border: none;
     border-radius: 100%;
     float: right;
-    background-color: rgb(51, 154, 151);
   }
   .close:hover {
-    background-color: rgb(170, 206, 205);
+    color: rgb(170, 206, 205);
   }
   .state {
     color: rgb(51, 154, 151);
