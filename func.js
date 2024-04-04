@@ -67,9 +67,9 @@ function info3() {
   creMs.classList.add('info3');
   creMs.textContent = '...';
   content.appendChild(creMs);
-  setTimeout("document.querySelector('.info3').style.width = '85%'", 1000);
+  setTimeout("document.querySelector('.info3').style.width = '68%'", 1000);
   setTimeout(
-    "document.querySelector('.info3').textContent = '그것은 #듀공을 아세요? 입니다.'",
+    "document.querySelector('.info3').textContent = '주제는 #듀공을 아세요? 입니다.'",
     1000
   );
 }
