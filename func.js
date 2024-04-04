@@ -137,7 +137,7 @@ function info8() {
   content.appendChild(creMs);
   setTimeout("document.querySelector('.info8').style.width = '85%'", 1000);
   setTimeout(
-    `document.querySelector('.info8').innerHTML = '<img src="/image/du0.png" />'`,
+    `document.querySelector('.info8').innerHTML = '<img src="https://github.com/codurfer/minipro/blob/main/du0.png?raw=true" />'`,
     1000
   );
 }
