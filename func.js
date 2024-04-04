@@ -2,9 +2,11 @@ const startBtn = document.querySelector('.start');
 const closeBtn = document.querySelector('.close');
 const content = document.querySelector('.content');
 const showup = document.querySelector('.mainBox');
+const fir = document.querySelector('.fir');
 
 startBtn.addEventListener('click', (e) => {
   startBtn.classList.toggle('off');
+  fir.classList.toggle('hide');
   showup.classList.add('active');
   info1();
   setTimeout('info2()', 1300);
