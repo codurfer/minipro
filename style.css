@@ -14,6 +14,9 @@ h1 {
   display: block;
   width: 450px;
 }
+.fir.hide {
+  display: none;
+}
 .fir {
   display: flex;
   flex-direction: column;
@@ -55,7 +58,7 @@ h1 {
 }
 .middle {
   width: 450px;
-  height: 900px;
+  height: 600px;
   background-color: rgb(187, 187, 187);
 }
 .content {
@@ -110,6 +113,7 @@ img {
   .fir {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin-top: 70px;
     font-size: 30px;
     color: white;
@@ -148,7 +152,7 @@ img {
   }
   .middle {
     width: 350px;
-    height: 600px;
+    height: 800px;
     background-color: rgb(187, 187, 187);
   }
   .content {
