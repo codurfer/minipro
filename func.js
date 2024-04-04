@@ -85,7 +85,7 @@ function info5() {
   content.appendChild(creMs);
   setTimeout("document.querySelector('.info5').style.width = '90%'", 1000);
   setTimeout(
-    `document.querySelector('.info5').innerHTML = '<img src="/image/du0.png" />'`,
+    `document.querySelector('.info5').innerHTML = '<img src="https://github.com/codurfer/minipro/blob/main/du0.png?raw=true" />'`,
     1000
   );
 }
