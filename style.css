@@ -39,10 +39,10 @@ h1 {
   float: left;
 }
 .close {
-  margin-top: 10px;
+  margin-top: 25px;
   margin-right: 15px;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   font-weight: bold;
   font-size: 20px;
   color: rgb(255, 255, 255);
@@ -59,7 +59,7 @@ h1 {
 }
 .middle {
   width: 450px;
-  height: 800px;
+  height: 1100px;
   background-color: rgb(187, 187, 187);
 }
 .content {
@@ -133,10 +133,11 @@ img {
     float: left;
   }
   .close {
-    margin-top: 25px;
+    text-align: center;
+    margin-top: 15px;
     margin-right: 15px;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     font-weight: bold;
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -153,7 +154,7 @@ img {
   }
   .middle {
     width: 370px;
-    height: 780px;
+    height: 1200px;
     background-color: rgb(187, 187, 187);
   }
   .content {
