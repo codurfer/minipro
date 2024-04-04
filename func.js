@@ -26,7 +26,7 @@ closeBtn.addEventListener('click', (e) => {
 });
 
 function stopInfo() {
-  state.textContent = '끗';
+  state.textContent = '설명 끗';
   state.style.color = 'red';
 }
 
