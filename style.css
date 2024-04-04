@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(51, 154, 151);
+}
+h1 {
+  margin-bottom: 0;
+}
+.mainBox {
+  display: none;
+}
+.mainBox.active {
+  display: block;
+  width: 450px;
+}
+.fir {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  font-size: 30px;
+  color: white;
+}
+.header {
+  height: 70px;
+  line-height: 80px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: rgb(19, 61, 57);
+}
+.titText {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  margin-left: 15px;
+  float: left;
+}
+.close {
+  margin-top: 25px;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 100%;
+  float: right;
+  background-color: rgb(51, 154, 151);
+}
+.close:hover {
+  background-color: rgb(170, 206, 205);
+}
+.state {
+  color: rgb(51, 154, 151);
+}
+.middle {
+  width: 450px;
+  height: 700px;
+  background-color: rgb(187, 187, 187);
+}
+.content {
+  display: block;
+  padding-top: 10px;
+}
+.btnbot {
+  width: 3%;
+  margin: 5px;
+  padding: 15px;
+  text-align: left;
+  border-radius: 20px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(19, 61, 57);
+}
+img {
+  width: 400px;
+  height: 220px;
+}
+.footer {
+  height: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: rgb(19, 61, 57);
+}
+.start {
+  display: block;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  color: rgb(51, 154, 151);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 100%;
+  background-color: rgb(250, 250, 250);
+}
+.start.off {
+  display: none;
+}
