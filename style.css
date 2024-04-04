@@ -103,13 +103,13 @@ img {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .mainBox {
     display: none;
   }
   .mainBox.active {
     display: block;
-    width: 350px;
+    width: 370px;
   }
   .fir {
     display: flex;
@@ -152,7 +152,7 @@ img {
     color: rgb(51, 154, 151);
   }
   .middle {
-    width: 350px;
+    width: 370px;
     height: 800px;
     background-color: rgb(187, 187, 187);
   }
@@ -193,7 +193,7 @@ img {
     display: none;
   }
   img {
-    width: 300px;
+    width: 320px;
     height: 220px;
   }
 }
